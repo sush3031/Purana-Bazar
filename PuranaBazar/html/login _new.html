@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <head>
+        <title>html page</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/postad.css">
+        <link rel="stylesheet" href="css/index_css.css">
+        <link rel="stylesheet" href="css/newLogIn.css">
+        <script src="libs/bootstrap.min.js"></script> 
+        <script src="libs/jquery-3.0.0.min.js"></script>
+        <script src="js/validate.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body style="background-image: url(img/back/brickwall.png);">
+	     <div class="row" >
+            <div class="col-md-2">           
+                 <td> <a href="index.php"><img src="img/site3.png" height="90" width="120"></a></td>
+                 <td width="60"></td>
+             </div>
+             <div class="col-md-4 col-md-offset-0">
+                    <td ><br><br><center><font size="7" color="blue">KIET BAZAR</font></center>
+                    <center><font size="4" color="red"> A Platform For Selling of Old Things</font></center>
+                     </td>
+             </div>             
+         </div><br>
+          <div class="h-divider">
+          </div>
+       <center><h3><font color="blue"><u>Log In</u></font></h3></center>
+       <br>
+        <div class="container">
+            <form class="form-horizontal col-md-4 col-md-offset-3" style="background-image: url(img/back/cork-wallet.png);" id="formlog" name="formlogin" onsubmit="return validateLogin()" method="post" novalidate autocomplete="on">
+                <br><br>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-md-4 control-label" id="mail">Email:</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Email" name="mail" required autofocus>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-md-4 control-label">Password:</label>
+                    <div class="col-md-8">
+                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="password" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-4 col-md-5">
+                        <div class="checkbox">
+                            <label>
+                              <input type="checkbox"> Remember me
+                            </label>
+                        </div>
+                    </div>
+              </div>
+                  <div class="form-group">
+                        <div class="col-md-offset-3 col-md-7">
+                              <div id="logid" onmouseover="this.style.background='lightblue';" onmouseout="this.style.background='lightgray';">
+                                  <center> <input type="submit" class="styled-button-12" value="Log In" /> </center>
+                              </div>
+                        </div>
+                    </div>
+              <div class="form-group">
+                  <a href="https://www.google.co.in" class="none" onmouseover="style.color='red'" onmouseout="style.color='blue'"><label class="col-md-5 col-xs-8 col-md-offset-1 control-label">Unable to Login</label></a>
+                  <a href="register.html" class="none" onmouseover="style.color='red'" onmouseout="style.color='blue'"><label class="col-md-3 col-xs-3 col-md-offset-3 control-label">Register</label></a>
+              </div>
+              <div class="form-group">
+                  <a href="#" class="none" onmouseover="style.color='red'" onmouseout="style.color='blue'"><label class="col-md-8 col-xs-12 col-md-offset-2 control-label">LogIn With Phone & OTP</label></a>
+              </div>
+        </form>
+        </div>
+        
+        <br><br>
+        
+        <div class="container">
+            <div class="col-md-4 col-md-offset-3" style="background-image: url(img/back/restaurant.png);" id="bot">
+                <center><label>Log In using your Facebook account</label></center>
+                    <div class="col-md-offset-3 col-md-6">
+                        <div id="concfb" onmouseover="this.style.background='lightblue';" onmouseout="this.style.background='lightgray';"><a href="www.facebook.com" class="none"><font id="f">facebook</font></a></div>
+                    </div>
+            </div> 
+        </div>
+        <br><br>
+        
+        <div class="container">
+            <div class="col-md-4 col-xs-12 col-md-offset-3">
+                <font style="color:black;">By Logging in , you accept our</font> <a id="none" href="#" onmouseover="style.color='red'" onmouseout="style.color='blue'">Terms & Conditions</a>
+            </div>
+        </div><br>
+		
+		<div class="h-divider">
+          </div>
+		
+		 <div class="footer row"><br><br><br><br><br><br>
+            <p>Copyright &copy;  | design by  Saurav | Sarthak</p>
+         </div>
+         <div class="footer row" >
+            <br><br>
+            <center><a href="index.php" style="text-decoration:none">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>|<a href="#" style="text-decoration:none">&nbsp;&nbsp;Feedback
+                    &nbsp;&nbsp;</a>|<a href="#" style="text-decoration:none">&nbsp;&nbsp;Contact Us&nbsp;</a> 
+             </center>          
+            </div>
+            <br>
+        <div class="footer row">
+            <div class="right col-lg-6 col-xs-offset-4">
+                  <br><br><br>  <font size="2">&nbsp;Connect With Us</font><br><br>
+                  <a href="https://www.facebook.com"><img src="img/fb_logo.png" width="30" height="30"></a>&nbsp;
+                  <a href="https://twitter.com/"><img src="img/twitter_logo.png" width="30" height="30"></a>&nbsp;
+                <a href="https://mail.google.com"><img src="img/gmail_logo.png" width="30" height="30"></a>
+            </div>
+        </div>
+    </body>
+</html>

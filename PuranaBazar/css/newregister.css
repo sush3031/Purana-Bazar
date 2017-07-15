@@ -1,0 +1,24 @@
+#mail
+{
+    text-align: left;
+}
+
+.styled-button-8
+{
+    width: 150px;
+    height: 40px;
+    background-color: #5B74A8;
+    border-radius: 5px;
+}
+
+#formRegister
+{
+    padding-bottom: 15px;
+}
+
+hr
+{
+    color: black;
+    background-color: black;
+    width: 2px;
+}
